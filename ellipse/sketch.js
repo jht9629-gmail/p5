@@ -9,6 +9,6 @@ function setup() {
 function draw() {
   background(220,5);
   noStroke()
-  fill(mouseX,0,mouseY)
+  fill(mouseX,mouseY,0)
   ellipse(width/2,height/2,mouseX, mouseY)
 }
