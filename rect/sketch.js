@@ -4,6 +4,7 @@
 function setup() {
   createCanvas(windowWidth, windowHeight-50);
   createA('../ellipse','next')
+  createDiv('v1');
 }
 
 function draw() {
